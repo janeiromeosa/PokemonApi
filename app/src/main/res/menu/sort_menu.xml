@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mu_sort"
+        android:title="Sort"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/mu_sort_names"
+                android:title="Name"
+                app:showAsAction="never">
+                <menu>
+                    <item
+                        android:id="@+id/mu_sort_names_ascending"
+                        android:title="Ascending"
+                        app:showAsAction="never"/>
+                    <item
+                        android:id="@+id/mu_sort_names_descending"
+                        android:title="Descending"
+                        app:showAsAction="never"/>
+                </menu>
+            </item>
+        </menu>
+    </item>
+</menu>
+
